@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+html {
+    font-size: 62.5%;
+}
+.welcome-container {
+    display: grid;
+    grid-template-columns: 200px 100px 50px;
+}
+.welcome-item {
+    
+}

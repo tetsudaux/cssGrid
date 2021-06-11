@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+.container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 600px;
+}
+.item-1 {
+    background-color: indigo;
+    width: 300px;
+    height: 300px;
+}
+.item-2 {
+    background-color: indianred;
+    width: 300px;
+    height: 300px;
+}
+
+.item-3 {
+    grid-column: 1 / 3;
+    background-color: lawngreen;
+    height: 300px;
+    width: 600px;
+}
